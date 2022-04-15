@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "fivetalent"
+    ],
+    "rules": {
+      "curly": "error",
+      "jsx-a11y/label-has-associated-control": 0,
+      "react/prop-types": 0,
+      "react/jsx-props-no-spreading": 1
+    }
+  }
