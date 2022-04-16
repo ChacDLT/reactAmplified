@@ -1,17 +1,16 @@
 import React from 'react';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import DistributorManageOrder from './pages/DistributorManageOrder';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import OrderPage from './pages/OrderPage';
 
 function App() {
   return (
-    <p className="text-3xl font-bold underline">hello</p>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="*" element={<>Page Not Found</>} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="*" element={<>Page Not Found</>} />
 
-    //     <Route path="/distributor-manage" element={<DistributorManageOrder />} />
-    //   </Routes>
-    // </BrowserRouter>
+        <Route path="/distributor-manage" element={<OrderPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
