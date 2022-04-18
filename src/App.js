@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="*" element={<>Page Not Found</>} />
 
-        <Route path="/distributor-manage" element={<OrderPage />} />
+        <Route path="/order" element={<OrderPage />} />
       </Routes>
     </BrowserRouter>
   );

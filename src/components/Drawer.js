@@ -27,7 +27,6 @@ export default function Drawer({ isOpen, setIsOpen }) {
           <Card />
           <Card />
           <Card />
-          <Card />
         </article>
       </section>
     </main>
