@@ -112,7 +112,7 @@ export default function BBLayout({ children }) {
             </div>
           </div>
 
-          <div className="mt-2 md:hidden">
+          <div className="mt-2 md:hidden pb-24">
             <div className="flex flex-row-reverse mr-2 mb-2">
               <Button>Add Items +</Button>
             </div>
